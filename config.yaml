@@ -1,0 +1,12 @@
+# 分发默认配置。不含密钥。安装后请运行 `thought-recorder setup` 配置模型和 API key。
+# 本机作者的真实配置在 gitignored 的 config.yaml.local，不会进仓库。
+
+timezone: Asia/Shanghai
+
+agent:
+  execution_guidance: false
+  max_turns: 90
+
+terminal:
+  backend: local
+  cwd: .

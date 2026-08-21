@@ -1,0 +1,16 @@
+name: thought-recorder
+version: 1.0.0
+description: "随想记录员：把口语化所思所想整理后按天写入本地 Markdown。不是通用助手。"
+hermes_requires: ">=0.20.0"
+author: "lessore"
+license: "MIT"
+
+# AGENTS.md 是本 Agent 的完整工作流程，更新时必须一起覆盖。
+distribution_owned:
+  - SOUL.md
+  - AGENTS.md
+  - config.yaml
+  - distribution.yaml
+  - .no-bundled-skills
+
+env_requires: []
